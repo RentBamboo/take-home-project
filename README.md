@@ -16,7 +16,7 @@ Build a simple real-time task board where users can create and move tasks betwee
 
 ## Required Features
 
-1. **Three columns:** "To Do", "In Progress", "Done"
+1. **4 columns:** "To Do", "In Progress", "Done", "Unsure"
 2. **Create tasks:** Simple form to add a task with a title
 3. **Move tasks:** Drag-and-drop OR buttons to move between columns
 4. **Delete tasks:** Ability to remove tasks
@@ -30,19 +30,12 @@ Build a simple real-time task board where users can create and move tasks betwee
 ## Optional (if you have time)
 
 - Edit task titles
-- Simple authentication (even just a username is fine)
+- Simple authentication with better auth or a similar library
 - Task descriptions or metadata
 
-## Deliverables
+##
 
-Submit via email to `[YOUR_EMAIL]`:
-
-1. **GitHub repository link(s)** - public or grant access to `[YOUR_GITHUB_USERNAME]`
-2. **Live deployment URL(s)** - both frontend and backend if separate
-3. **Brief README** with:
-   - How to run locally
-   - Tech choices you made
-   - Any notes/assumptions
+You can use any AI tool. However projects will be rated much harsher so abuse it.
 
 ## Evaluation
 
