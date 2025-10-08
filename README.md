@@ -80,8 +80,3 @@ go mod init taskboard-backend
 go get github.com/gorilla/websocket
 go get github.com/gorilla/mux
 ```
-
-
----
-
-Questions? Email `[YOUR_EMAIL]`
