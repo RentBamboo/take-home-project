@@ -1,1 +1,90 @@
-# take-home-project
+# Take-Home Project: Real-time Task Board
+
+## Overview
+
+Build a simple real-time task board where users can create and move tasks between columns. Multiple users should see updates instantly via WebSockets.
+
+**Time Limit:** 2 hours
+
+**Required:** Must be deployed and accessible via URL
+
+## Tech Stack
+
+- **Frontend:** Next.js + TypeScript
+- **Backend:** Node.js or Go with WebSockets
+- **Deployment:** Your choice (Vercel, Railway, Render, fly.io, etc.)
+
+## Required Features
+
+1. **Three columns:** "To Do", "In Progress", "Done"
+2. **Create tasks:** Simple form to add a task with a title
+3. **Move tasks:** Drag-and-drop OR buttons to move between columns
+4. **Delete tasks:** Ability to remove tasks
+5. **Database:** Connect to either **MongoDB** or **PostgreSQL** (your choice)
+   - Tasks must persist across server restarts
+   - Free tiers: MongoDB Atlas, Supabase, Neon, Railway, etc.
+6. **Real-time sync:** All connected users see changes instantly via WebSockets
+7. **Backend:** Must have a separate backend service (Node.js or Go)
+8. **Deployed:** Both frontend and backend must be live and accessible
+
+## Optional (if you have time)
+
+- Edit task titles
+- Simple authentication (even just a username is fine)
+- Task descriptions or metadata
+
+## Deliverables
+
+Submit via email to `[YOUR_EMAIL]`:
+
+1. **GitHub repository link(s)** - public or grant access to `[YOUR_GITHUB_USERNAME]`
+2. **Live deployment URL(s)** - both frontend and backend if separate
+3. **Brief README** with:
+   - How to run locally
+   - Tech choices you made
+   - Any notes/assumptions
+
+## Evaluation
+
+- Does it work? Can we test it live?
+- Real-time functionality working correctly?
+- Clean, readable code
+- Deployment successful to a url
+
+## Deadline
+
+You have 2 hours from the time I sent you this.
+
+---
+
+## Quick Start Commands
+
+### Frontend (Next.js)
+```bash
+npx create-next-app@latest frontend --typescript --tailwind --app
+cd frontend
+npm install
+npm run dev
+```
+
+### Backend - Node.js Option
+```bash
+mkdir backend && cd backend
+npm init -y
+npm install express ws cors dotenv
+npm install --save-dev typescript @types/node @types/express @types/ws ts-node nodemon
+npx tsc --init
+```
+
+### Backend - Go Option
+```bash
+mkdir backend && cd backend
+go mod init taskboard-backend
+go get github.com/gorilla/websocket
+go get github.com/gorilla/mux
+```
+
+
+---
+
+Questions? Email `[YOUR_EMAIL]`
