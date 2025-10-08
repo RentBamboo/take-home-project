@@ -40,13 +40,17 @@ You can use any AI tool. However projects will be rated much harsher so abuse it
 ## Evaluation
 
 - Does it work? Can we test it live?
+- A nice front end design is huge factor.
 - Real-time functionality working correctly?
 - Clean, readable code
 - Deployment successful to a url
 
-## Deadline
+## Deadline & Submission
 
 You have 2 hours from the time I sent you this.
+
+Fork this repo and start a new branch to start your work. or just email your repo @ axel@rentbamboo.com
+
 
 ---
 
